@@ -1,0 +1,13 @@
+{
+  "name": "engage_roster_download",
+  "version": "1.0.0",
+  "description": "Downloads the roster to a CSV format from CampusLabs Engage",
+  "main": "main.js",
+  "keywords": [],
+  "author": "luop90",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0"
+  }
+}
