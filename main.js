@@ -76,20 +76,18 @@ function downloadAndParsePage(pageNum) {
 }
 
 /**
- * Writes the name and email to a csv file
+ * Appends the name and email to a csv file
  * @param firstName
  * @param lastName
  * @param email
  */
 function writeToCSV(firstName, lastName, email) {
-    let outputString = `${lastName}, ${firstName}, ${email}\n`
+    let outputString = `${lastName}, ${firstName}, ${email}\n`;
     // console.log(outputString);
 
     fs.appendFile(outputFileName, outputString, err => {
         if (err) {
             throw err;
         }
-
-        // console.log('Wrote to file')
-    })
+    });
 }
