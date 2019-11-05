@@ -1,6 +1,6 @@
 {
   "name": "engage_roster_download",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Downloads the roster to a CSV format from CampusLabs Engage",
   "main": "main.js",
   "keywords": [],
